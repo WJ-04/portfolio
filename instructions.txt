@@ -1,0 +1,22 @@
+#setup instructions
+
+echo "# portfolio" >> README.md
+git init
+git add README.md
+git add .
+
+git commit -m "first commit"
+git branch -M main
+git remote set-url origin https://WJ-04@github.com/WJ-04/portfolio.git
+git push -u origin main
+
+#push instructions
+
+git add .
+git commit -m "Your message describing what you changed"
+git push
+
+#pull instructions
+
+git clone https://github.com/WJ-04/portfolio.git
+
