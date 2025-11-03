@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* webname left, buttons right */
+    align-items: center; /* vertically centered */
+}
+
+h1 {
+    margin: 0;
+}
+
+#webname {
+    margin: 30px 40px;
+    color: gold;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+#navbuttons {
+    display: flex;
+    
+    background-color: blue;
+    width: 25%;
+    margin-right: 35px;
+    border-radius: 20px;
+}
+
+#navbuttons button {
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    background-color: inherit;
+    font-size: 15px;
+    padding: 20px 40px;
+}
+
+#navbuttons button:hover {
+    color: #e0e0e0;
+}
+
+.profilebox{
+    display: flex;
+    size: 20px
+}
